@@ -91,7 +91,7 @@ Open.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Open.TextColor3 = Color3.fromRGB(255, 255, 255)
 Open.TextScaled = true
 Open.TextSize = 20
-Open.Visible = false
+Open.Visible = true
 Open.BackgroundTransparency = .5
 Open.MouseButton1Up:Connect(function()
 if Open.Text == "Open" then
